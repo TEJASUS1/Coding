@@ -199,12 +199,19 @@ public class LoopsExample {
             
         }
 
-
+ //=============================WHILE LOOP=============================//
        int count =19;
         while(count<=20){
             System.out.println(count);
             count++;
         }
+//=============================DO WHILE LOOP==========================//
+        do{
+            System.out.println(count);
+            count++;
+        }
+
+        while(count<=20);
 
 
 
