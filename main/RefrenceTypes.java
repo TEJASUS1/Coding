@@ -10,7 +10,11 @@ public class RefrenceTypes {
         System.out.println("after changing");
 
         jeena.name = "jo";
-        System.out.println(sai.name +" && "+ jeena.name);    }
+        System.out.println(sai.name +" && "+ jeena.name);
+
+    }
+
+
     static class person{
         String name;
         person(String name){
