@@ -1,4 +1,4 @@
-package main;
+package main.basic;
 
 import java.util.Arrays;
 
@@ -16,6 +16,9 @@ public class MethodsExample {
         int count = countOccurences(letters, 'A');
         System.out.println(count);
 
+       int z= add(1,3);
+        //System.out.println(z);
+
     }
 
 
@@ -32,5 +35,14 @@ public class MethodsExample {
 
         return count;
     }
+
+    static int add(int a, int b){
+
+        int c = a+b;
+
+        return c;
+
+    }
+
 
 }
