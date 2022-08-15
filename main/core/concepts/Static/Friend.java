@@ -3,7 +3,7 @@ package main.core.concepts.Static;
 public class Friend {
 
     String name;
-      static int numberOfFriends;
+       static int numberOfFriends;
 
     Friend(String name){
         this.name= name;
